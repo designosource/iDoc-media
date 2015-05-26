@@ -83,6 +83,7 @@ regions[header]              = Header
 regions[help]                = Help
 regions[what]         		 = What
 regions[how]            	 = How
+regions[referenties]         = Referenties
 regions[storyworld]          = Storyworld
 regions[sponsors]            = Sponsors
 regions[content]             = Content
