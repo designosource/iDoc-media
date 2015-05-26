@@ -82,15 +82,44 @@
   </header>
   <!--/.l-header -->
 
-  <?php if (!empty($page['featured'])): ?>
-    <!--/.featured -->
-    <section class="l-featured row">
-      <div class="large-12 columns">
-        <?php print render($page['featured']); ?>
-      </div>
-    </section>
-    <!--/.l-featured -->
-  <?php endif; ?>
+ <?php if (!empty($page['what'])): ?>
+      <!--.l-header-region -->
+      <section class="l-what-region row">
+        <div class="large-12 columns">
+          <?php print render($page['what']); ?>
+        </div>
+      </section>
+      <!--/.l-header-region -->
+    <?php endif; ?>
+
+    <?php if (!empty($page['how'])): ?>
+      <!--.l-header-region -->
+      <section class="l-how-region row">
+        <div class="large-12 columns">
+          <?php print render($page['how']); ?>
+        </div>
+      </section>
+      <!--/.l-header-region -->
+    <?php endif; ?>
+
+    <?php if (!empty($page['storyworld'])): ?>
+      <!--.l-header-region -->
+      <section class="l-storyworld-region row">
+        <div class="large-12 columns">
+          <?php print render($page['storyworld']); ?>
+        </div>
+      </section>
+      <!--/.l-header-region -->
+    <?php endif; ?>
+<?php if (!empty($page['sponsors'])): ?>
+      <!--.l-header-region -->
+      <section class="l-sponsors-region row">
+        <div class="large-12 columns">
+          <?php print render($page['sponsors']); ?>
+        </div>
+      </section>
+      <!--/.l-header-region -->
+    <?php endif; ?>
 
   <?php if ($messages && !$zurb_foundation_messages_modal): ?>
     <!--/.l-messages -->
