@@ -54,6 +54,7 @@
 @import "layout/aside";
 @import "layout/triptych";
 @import "layout/footer";
+@import "layout/fonts";
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -61,6 +62,17 @@ body{
 .videoheader{
 	max-width: 100%;
 }
+
+h1.rtecenter{
+	font-family: Proximanova-vet;
+	font-size: 2.6em;
+}
+
+p.rtecenter{
+	font-family: Proximanova-regular;
+	font-size: 1.1em;
+}
+
 .videoWrapper video{
 	width: 100%;
 }
