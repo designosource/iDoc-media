@@ -81,6 +81,7 @@ scripts[] = js/foundation.min.js
 
 regions[header]              = Header
 regions[help]                = Help
+regions[whatmenu]            = What menu
 regions[what]         		 = What
 regions[how]            	 = How
 regions[referenties]         = Referenties
