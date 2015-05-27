@@ -82,6 +82,27 @@ p.rtecenter{
   	right: 30%;
   	z-index: 20;
 }
+
+footer{
+	&.l-footer{
+		&.panel{
+			background-color: #302F2F;
+			margin-bottom: 0px;
+			p, a{
+				color:#fff;
+			}
+			a{
+				text-decoration: underline;
+			}
+		}
+		&.row{
+			max-width:100%;
+			text-align: center;
+		}
+	}
+}
+
+
 // Components
  @import "components/buttons";
 // @import "components/type";
