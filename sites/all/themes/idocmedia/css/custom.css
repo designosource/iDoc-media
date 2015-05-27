@@ -7443,20 +7443,39 @@ p.rtecenter {
   z-index: 20;
 }
 
+/* line 86, ../scss/custom.scss */
+.l-sponsors-region {
+  background-color: #f6f6f7;
+}
 /* line 88, ../scss/custom.scss */
+.l-sponsors-region table {
+  border: none;
+}
+/* line 91, ../scss/custom.scss */
+.l-sponsors-region img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+/* line 94, ../scss/custom.scss */
+.l-sponsors-region img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 102, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 91, ../scss/custom.scss */
+/* line 105, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 94, ../scss/custom.scss */
+/* line 108, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 98, ../scss/custom.scss */
+/* line 112, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;

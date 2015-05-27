@@ -83,6 +83,20 @@ p.rtecenter{
   	z-index: 20;
 }
 
+.l-sponsors-region{
+	background-color: #f6f6f7;
+	table{
+		border:none;
+	}
+	img{
+		@include opacity(0.4);
+	}
+	img:hover{
+		@include opacity(1);
+	}
+
+}
+
 footer{
 	&.l-footer{
 		&.panel{

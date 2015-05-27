@@ -141,7 +141,7 @@
     <?php endif; ?>
 <?php if (!empty($page['sponsors'])): ?>
       <!--.l-header-region -->
-      <section class="l-sponsors-region row">
+      <section class="l-sponsors-region">
         <div class="large-12 columns">
           <?php print render($page['sponsors']); ?>
         </div>
