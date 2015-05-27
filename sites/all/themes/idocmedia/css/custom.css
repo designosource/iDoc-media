@@ -7442,3 +7442,9 @@ p.rtecenter {
   right: 30%;
   z-index: 20;
 }
+
+/* line 6, ../scss/components/_buttons.scss */
+.button, .button:hover {
+  background-color: #bb9711;
+  border: none;
+}
