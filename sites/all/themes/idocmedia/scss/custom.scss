@@ -55,6 +55,21 @@
 @import "layout/triptych";
 @import "layout/footer";
 
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.videoheader{
+	max-width: 100%;
+}
+.videoWrapper video{
+	width: 100%;
+}
+.block-block-1{
+	position: absolute;
+	left: 30%;
+  	right: 30%;
+  	z-index: 20;
+}
 // Components
 // @import "components/buttons";
 // @import "components/type";

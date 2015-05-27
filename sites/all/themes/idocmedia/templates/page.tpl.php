@@ -71,16 +71,17 @@
 
     <?php if (!empty($page['header'])): ?>
       <!--.l-header-region -->
-      <section class="l-header-region row">
+      <section class="l-header-region row videoheader">
         <div class="large-12 columns">
-        <div class="videoWrapper">
-        	<video style="display:block;" autoplay="" loop="">
-        		<source src="sites/all/themes/idocmedia/videos/placeholder.mp4" type="video/mp4"></source>
-        		<source src="sites/all/themes/idocmedia/videos/placeholder.ogv" type="video/ogg"></source>
-        		<source src="sites/all/themes/idocmedia/videos/placeholder.webm" type="video/webm"></source>
-        	</video>
-        </div>
+        
           <?php print render($page['header']); ?>
+          <div class="videoWrapper">
+          <video style="display:block;" autoplay="" loop="">
+            <source src="sites/all/themes/idocmedia/videos/placeholder.mp4" type="video/mp4"></source>
+            <source src="sites/all/themes/idocmedia/videos/placeholder.ogv" type="video/ogg"></source>
+            <source src="sites/all/themes/idocmedia/videos/placeholder.webm" type="video/webm"></source>
+          </video>
+        </div>
         </div>
       </section>
       <!--/.l-header-region -->
