@@ -73,6 +73,13 @@
       <!--.l-header-region -->
       <section class="l-header-region row">
         <div class="large-12 columns">
+        <div class="videoWrapper">
+        	<video style="display:block;" autoplay="" loop="">
+        		<source src="../videos/placeholder.mp4" type="video/mp4"></source>
+        		<source src="../videos/placeholder.ogv" type="video/ogg"></source>
+        		<source src="../videos/placeholder.webm" type="video/webm"></source>
+        	</video>
+        </div>
           <?php print render($page['header']); ?>
         </div>
       </section>
