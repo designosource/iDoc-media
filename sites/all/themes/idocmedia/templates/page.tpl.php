@@ -72,7 +72,7 @@
     <?php if (!empty($page['header'])): ?>
       <!--.l-header-region -->
       <section class="l-header-region row videoheader">
-        <div class="large-12 columns">
+        <div class="fullW large-12 columns">
         
           <?php print render($page['header']); ?>
           <div class="videoWrapper">
