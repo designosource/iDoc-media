@@ -123,7 +123,7 @@
     <?php if (!empty($page['referenties'])): ?>
       <!--.l-header-region -->
       <section class="l-referenties-region row">
-        <div class="large-12 columns">
+        <div class="large-12 columns fullW">
           <?php print render($page['referenties']); ?>
         </div>
       </section>
