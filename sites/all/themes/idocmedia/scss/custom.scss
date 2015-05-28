@@ -107,8 +107,18 @@ p.rtecenter{
 .l-storyworld-region{
 	text-align: center;
 }
+.l-how-region{
+	background-color: $lightgrey;
+	&.row{
+		max-width: 100%;
+		p, h2{
+			text-align: center;
+		}
+
+	}
+	}
 .l-sponsors-region{
-	background-color: #f6f6f7;
+	background-color: $lightgrey;
 	min-height: 330px;
 	table{
 		border:none;
