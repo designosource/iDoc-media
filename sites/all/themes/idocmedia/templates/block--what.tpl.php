@@ -42,7 +42,7 @@
  */
 ?>
 <?php if ($block->delta != 'main'):  ?>
-  <section class="<?php print $classes; ?> small-4 large-12 columns"<?php print $attributes; ?>>
+  <section class="<?php print $classes; ?> small-12 large-12 columns"<?php print $attributes; ?>>
 <?php endif; ?>
 
   <?php print render($title_prefix); ?>
