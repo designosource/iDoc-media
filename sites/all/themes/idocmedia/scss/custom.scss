@@ -141,9 +141,19 @@ h2{
 	}
 	img{
 		@include opacity(0.4);
+		@include desaturate(100%);
+		-webkit-transition: all 0.8s ease-in-out;
+-moz-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
 	}
 	img:hover{
 		@include opacity(1);
+		@include desaturate(0%);
+		-webkit-transition: all 0.8s ease-in-out;
+-moz-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
 	}
 
 }
