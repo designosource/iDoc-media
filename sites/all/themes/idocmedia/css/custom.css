@@ -7446,9 +7446,10 @@ p.rtecenter {
   left: 30%;
   right: 30%;
   z-index: 20;
+  top: 30%;
 }
 
-/* line 90, ../scss/custom.scss */
+/* line 91, ../scss/custom.scss */
 .block-views-referenties-block h2 {
   text-align: center;
   background-color: #bb9711;
@@ -7459,59 +7460,64 @@ p.rtecenter {
   margin-top: 0px;
 }
 
-/* line 101, ../scss/custom.scss */
+/* line 102, ../scss/custom.scss */
+.l-header-region .block-block-1 {
+  padding-top: 20%;
+}
+
+/* line 107, ../scss/custom.scss */
 .l-referenties-region.row {
   max-width: 100%;
 }
-/* line 103, ../scss/custom.scss */
+/* line 109, ../scss/custom.scss */
 .l-referenties-region.row table {
   margin-left: auto;
   margin-right: auto;
   border: none;
 }
-/* line 107, ../scss/custom.scss */
+/* line 113, ../scss/custom.scss */
 .l-referenties-region.row table tr td {
   padding: 0px;
 }
 
-/* line 114, ../scss/custom.scss */
+/* line 120, ../scss/custom.scss */
 .l-storyworld-region {
   text-align: center;
 }
 
-/* line 117, ../scss/custom.scss */
+/* line 123, ../scss/custom.scss */
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   color: #6D696A;
 }
 
-/* line 122, ../scss/custom.scss */
+/* line 128, ../scss/custom.scss */
 .l-how-region {
   background-color: #f6f6f7;
 }
-/* line 124, ../scss/custom.scss */
+/* line 130, ../scss/custom.scss */
 .l-how-region.row {
   max-width: 100%;
 }
-/* line 126, ../scss/custom.scss */
+/* line 132, ../scss/custom.scss */
 .l-how-region.row p, .l-how-region.row h2 {
   text-align: center;
 }
 
-/* line 133, ../scss/custom.scss */
+/* line 139, ../scss/custom.scss */
 .l-sponsors-region {
   background-color: #f6f6f7;
   min-height: 330px;
 }
-/* line 136, ../scss/custom.scss */
+/* line 142, ../scss/custom.scss */
 .l-sponsors-region table {
   border: none;
   margin-left: auto;
   margin-right: auto;
   background: none;
 }
-/* line 142, ../scss/custom.scss */
+/* line 148, ../scss/custom.scss */
 .l-sponsors-region img {
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -7523,7 +7529,7 @@ h2 {
   -o-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-/* line 150, ../scss/custom.scss */
+/* line 156, ../scss/custom.scss */
 .l-sponsors-region img:hover {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -7536,20 +7542,20 @@ h2 {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 164, ../scss/custom.scss */
+/* line 170, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 167, ../scss/custom.scss */
+/* line 173, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 170, ../scss/custom.scss */
+/* line 176, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 174, ../scss/custom.scss */
+/* line 180, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;
@@ -7565,7 +7571,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 184, ../scss/custom.scss */
+/* line 190, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;
