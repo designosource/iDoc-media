@@ -134,12 +134,15 @@ h2{
 	}
 .l-sponsors-region{
 	background-color: $lightgrey;
-	min-height: 330px;
+	min-height: 430px;
 	table{
 		border:none;
 		margin-left: auto;
  		margin-right: auto;
  		background:none;
+ 		tr.even, table tr.alt, table tr:nth-of-type(even){
+ 			background: none;
+ 		}
 	}
 	img{
 		@include opacity(0.2);
