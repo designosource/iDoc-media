@@ -7,4 +7,5 @@
 	background-color: $brown;
 	border: none;
 	@include roundedborder(10px);
+	border-bottom: 5px solid darken($brown);
 }
