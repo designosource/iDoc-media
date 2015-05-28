@@ -194,7 +194,9 @@
         </ul>
       <?php endif; ?>
 
-      <?php print render($page['content']); ?>
+    <?php if(!$is_front){
+      print render($page['content']);
+      } ?>
     </div>
     <!--/.main region -->
 
