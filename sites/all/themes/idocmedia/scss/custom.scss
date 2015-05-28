@@ -140,7 +140,7 @@ h2{
  		background:none;
 	}
 	img{
-		@include opacity(0.4);
+		@include opacity(0.2);
 		@include desaturate(100%);
 		-webkit-transition: all 0.8s ease-in-out;
 -moz-transition: all 0.8s ease-in-out;

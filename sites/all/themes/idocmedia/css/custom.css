@@ -7513,8 +7513,8 @@ h2 {
 }
 /* line 142, ../scss/custom.scss */
 .l-sponsors-region img {
-  opacity: 0.4;
-  filter: alpha(opacity=40);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
   -webkit-filter: grayscale(100%);
   filter: gray;
   filter: grayscale(100%);
