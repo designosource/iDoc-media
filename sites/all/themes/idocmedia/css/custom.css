@@ -7469,68 +7469,72 @@ p.rtecenter {
   margin-right: auto;
   border: none;
 }
+/* line 107, ../scss/custom.scss */
+.l-referenties-region.row table tr td {
+  padding: 0px;
+}
 
-/* line 111, ../scss/custom.scss */
+/* line 114, ../scss/custom.scss */
 .l-storyworld-region {
   text-align: center;
 }
 
-/* line 114, ../scss/custom.scss */
+/* line 117, ../scss/custom.scss */
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   color: #6D696A;
 }
 
-/* line 119, ../scss/custom.scss */
+/* line 122, ../scss/custom.scss */
 .l-how-region {
   background-color: #f6f6f7;
 }
-/* line 121, ../scss/custom.scss */
+/* line 124, ../scss/custom.scss */
 .l-how-region.row {
   max-width: 100%;
 }
-/* line 123, ../scss/custom.scss */
+/* line 126, ../scss/custom.scss */
 .l-how-region.row p, .l-how-region.row h2 {
   text-align: center;
 }
 
-/* line 130, ../scss/custom.scss */
+/* line 133, ../scss/custom.scss */
 .l-sponsors-region {
   background-color: #f6f6f7;
   min-height: 330px;
 }
-/* line 133, ../scss/custom.scss */
+/* line 136, ../scss/custom.scss */
 .l-sponsors-region table {
   border: none;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 138, ../scss/custom.scss */
+/* line 141, ../scss/custom.scss */
 .l-sponsors-region img {
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
-/* line 141, ../scss/custom.scss */
+/* line 144, ../scss/custom.scss */
 .l-sponsors-region img:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 150, ../scss/custom.scss */
+/* line 153, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 153, ../scss/custom.scss */
+/* line 156, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 156, ../scss/custom.scss */
+/* line 159, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 160, ../scss/custom.scss */
+/* line 163, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;
@@ -7546,7 +7550,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 170, ../scss/custom.scss */
+/* line 173, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;
