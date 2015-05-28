@@ -76,11 +76,7 @@
         
           <?php print render($page['header']); ?>
           <div class="videoWrapper">
-          <video style="display:block;" autoplay="" loop="">
-            <source src="sites/all/themes/idocmedia/videos/placeholder.mp4" type="video/mp4"></source>
-            <source src="sites/all/themes/idocmedia/videos/placeholder.ogv" type="video/ogg"></source>
-            <source src="sites/all/themes/idocmedia/videos/placeholder.webm" type="video/webm"></source>
-          </video>
+          <img src="sites/all/themes/idocmedia/images/bg.jpg" />
         </div>
         </div>
       </section>
