@@ -6,6 +6,6 @@
 .button, .button:hover {
 	background-color: $brown;
 	border: none;
-	@include roundedborder(10px, 10%);
-	border-bottom: 5px solid darken($brown);
+	@include roundedborder(10px);
+	border-bottom: 5px solid darken($brown, 10%);
 }
