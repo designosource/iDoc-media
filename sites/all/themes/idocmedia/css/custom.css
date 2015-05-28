@@ -7505,6 +7505,9 @@ footer.l-footer.row {
 .button, .button:hover {
   background-color: #bb9711;
   border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* line 139, ../scss/custom.scss */

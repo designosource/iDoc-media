@@ -19,3 +19,9 @@
   $opacity-ie: $opacity * 100;
   filter: alpha(opacity=$opacity-ie); //IE8
 }
+
+@mixin roundedborder($border){
+	-webkit-border-radius: $border;
+	-moz-border-radius: $border;
+	border-radius: $border;
+}
