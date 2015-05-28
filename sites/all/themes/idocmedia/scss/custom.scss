@@ -107,12 +107,18 @@ p.rtecenter{
 .l-storyworld-region{
 	text-align: center;
 }
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	color: $darkgrey;
+}
 .l-how-region{
 	background-color: $lightgrey;
 	&.row{
 		max-width: 100%;
 		p, h2{
 			text-align: center;
+			
 		}
 
 	}
