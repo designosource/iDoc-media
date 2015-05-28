@@ -138,7 +138,7 @@ footer{
  @import "components/buttons";
 .darkredbg{
 	background-color: $darkred;
-	border-bottom: 5px solid darken($darkred);
+	border-bottom: 5px solid darken($darkred, 10%);
 }
 // @import "components/type";
 // @import "components/forms";
