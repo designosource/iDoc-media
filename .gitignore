@@ -7,3 +7,4 @@ sites/default/files/.htaccess
 sites/default/files/styles
 sites/*/private
 tmp/*
+C:/wamp/www/tmp/*
