@@ -7411,35 +7411,41 @@ a.th {
 /* line 59, ../scss/custom.scss */
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #6D696A;
 }
 
-/* line 62, ../scss/custom.scss */
+/* line 63, ../scss/custom.scss */
 .fullW {
   padding: 0em;
 }
 
-/* line 66, ../scss/custom.scss */
+/* line 67, ../scss/custom.scss */
 .videoheader {
   max-width: 100%;
 }
 
-/* line 70, ../scss/custom.scss */
+/* line 71, ../scss/custom.scss */
 h1.rtecenter {
   font-family: Proximanova-vet;
   font-size: 2.6em;
 }
 
 /* line 75, ../scss/custom.scss */
+p {
+  color: #6D696A;
+}
+
+/* line 79, ../scss/custom.scss */
 h2 {
   text-align: center;
 }
 
-/* line 79, ../scss/custom.scss */
+/* line 83, ../scss/custom.scss */
 .videoWrapper video {
   width: 100%;
 }
 
-/* line 82, ../scss/custom.scss */
+/* line 86, ../scss/custom.scss */
 .block-block-1 {
   position: absolute;
   left: 30%;
@@ -7448,17 +7454,17 @@ h2 {
   top: 30%;
 }
 
-/* line 90, ../scss/custom.scss */
+/* line 94, ../scss/custom.scss */
 .block-menu-menu-idoc-menu li {
   display: inline-block;
   padding-right: 60px;
 }
-/* line 93, ../scss/custom.scss */
+/* line 97, ../scss/custom.scss */
 .block-menu-menu-idoc-menu li a {
   color: #6D696A;
 }
 
-/* line 100, ../scss/custom.scss */
+/* line 104, ../scss/custom.scss */
 .block-views-referenties-block h2 {
   text-align: center;
   background-color: #bb9711;
@@ -7469,63 +7475,63 @@ h2 {
   margin-top: 0px;
 }
 
-/* line 112, ../scss/custom.scss */
+/* line 116, ../scss/custom.scss */
 .l-referenties-region.row {
   max-width: 100%;
 }
-/* line 114, ../scss/custom.scss */
+/* line 118, ../scss/custom.scss */
 .l-referenties-region.row table {
   margin-left: auto;
   margin-right: auto;
   border: none;
 }
-/* line 118, ../scss/custom.scss */
+/* line 122, ../scss/custom.scss */
 .l-referenties-region.row table tr td {
   padding: 0px;
 }
 
-/* line 125, ../scss/custom.scss */
+/* line 129, ../scss/custom.scss */
 .l-storyworld-region {
   text-align: center;
 }
 
-/* line 128, ../scss/custom.scss */
+/* line 132, ../scss/custom.scss */
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   color: #6D696A;
 }
 
-/* line 133, ../scss/custom.scss */
+/* line 137, ../scss/custom.scss */
 .l-how-region {
   background-color: #f6f6f7;
 }
-/* line 135, ../scss/custom.scss */
+/* line 139, ../scss/custom.scss */
 .l-how-region.row {
   max-width: 100%;
 }
-/* line 137, ../scss/custom.scss */
+/* line 141, ../scss/custom.scss */
 .l-how-region.row p, .l-how-region.row h2 {
   text-align: center;
 }
 
-/* line 144, ../scss/custom.scss */
+/* line 148, ../scss/custom.scss */
 .l-sponsors-region {
   background-color: #f6f6f7;
   min-height: 430px;
 }
-/* line 147, ../scss/custom.scss */
+/* line 151, ../scss/custom.scss */
 .l-sponsors-region table {
   border: none;
   margin-left: auto;
   margin-right: auto;
   background: none;
 }
-/* line 152, ../scss/custom.scss */
+/* line 156, ../scss/custom.scss */
 .l-sponsors-region table tr.even, .l-sponsors-region table tr.alt, .l-sponsors-region table tr:nth-of-type(even) {
   background: none;
 }
-/* line 156, ../scss/custom.scss */
+/* line 160, ../scss/custom.scss */
 .l-sponsors-region img {
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -7537,7 +7543,7 @@ h2 {
   -o-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-/* line 164, ../scss/custom.scss */
+/* line 168, ../scss/custom.scss */
 .l-sponsors-region img:hover {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -7550,20 +7556,20 @@ h2 {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 178, ../scss/custom.scss */
+/* line 182, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 181, ../scss/custom.scss */
+/* line 185, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 184, ../scss/custom.scss */
+/* line 188, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 188, ../scss/custom.scss */
+/* line 192, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;
@@ -7579,7 +7585,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 198, ../scss/custom.scss */
+/* line 202, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;
