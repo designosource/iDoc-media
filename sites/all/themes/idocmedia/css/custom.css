@@ -7482,25 +7482,20 @@ p.rtecenter {
   filter: alpha(opacity=100);
 }
 
-/* line 115, ../scss/custom.scss */
-.darkredbg {
-  background-color: #A67D66;
-}
-
-/* line 121, ../scss/custom.scss */
+/* line 119, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 124, ../scss/custom.scss */
+/* line 122, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 127, ../scss/custom.scss */
+/* line 125, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 131, ../scss/custom.scss */
+/* line 129, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;
@@ -7510,4 +7505,9 @@ footer.l-footer.row {
 .button, .button:hover {
   background-color: #bb9711;
   border: none;
+}
+
+/* line 139, ../scss/custom.scss */
+.darkredbg {
+  background-color: #A67D66;
 }

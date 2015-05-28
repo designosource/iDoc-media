@@ -112,9 +112,7 @@ p.rtecenter{
 	}
 
 }
-.darkredbg{
-	background-color: $darkred;
-}
+
 
 footer{
 	&.l-footer{
@@ -138,6 +136,9 @@ footer{
 
 // Components
  @import "components/buttons";
+.darkredbg{
+	background-color: $darkred;
+}
 // @import "components/type";
 // @import "components/forms";
 // @import "components/foundation-icons";
