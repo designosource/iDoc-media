@@ -108,7 +108,9 @@ h2{
 	.view-header{
 		text-align: center;
 		background-color: $brown;
-		color:#fff;
+		p{
+			color:#fff;
+		}
 	}
 }
 
