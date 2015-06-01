@@ -11,7 +11,11 @@
       <?php endif; ?>
         <nav class="top-bar"<?php print $top_bar_options; ?>>
           <ul class="title-area">
-            <li class="name"><h1><?php print $linked_site_name; ?></h1></li>
+            <li class="name">
+            <object data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
+  <img src="sites/all/themes/idocmedia/logo.png" />
+</object>
+</li>
             <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
