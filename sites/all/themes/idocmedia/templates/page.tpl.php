@@ -127,6 +127,7 @@
           <?php print render($page['brickland']); ?>
         </div>
       </section>
+      <?php endif; ?>
 
     <?php if (!empty($page['storyworld'])): ?>
       <!--.l-header-region -->
