@@ -105,6 +105,11 @@ h2{
 		  margin-bottom: 0px;
 		  margin-top: 0px;
 	}
+	.view-header{
+		text-align: center;
+		background-color: $brown;
+		color:#fff;
+	}
 }
 
 .l-referenties-region{
@@ -195,10 +200,12 @@ footer{
 	height: auto;
 	.top-bar-section ul{
 		background-color: $menubggrey;
-		li{
+		@media only screen and (min-width: 940px) {
+			li{
 			padding-top: 20px;
 			padding-bottom: 20px;
 		}
+	}
 	}
 }
 @media only screen and (min-width: 940px) {
