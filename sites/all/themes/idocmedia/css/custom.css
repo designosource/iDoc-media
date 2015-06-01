@@ -7570,14 +7570,43 @@ footer.l-footer.row {
 }
 
 /* line 193, ../scss/custom.scss */
+.top-bar {
+  background-color: #353535;
+  height: auto;
+}
+/* line 196, ../scss/custom.scss */
+.top-bar .top-bar-section ul {
+  background-color: #353535;
+}
+/* line 198, ../scss/custom.scss */
+.top-bar .top-bar-section ul li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 940px) {
+  /* line 205, ../scss/custom.scss */
+  ul.title-area {
+    padding-top: 16px;
+  }
+
+  /* line 208, ../scss/custom.scss */
+  .top-bar .title-area {
+    padding-left: 16%;
+    padding-right: 6%;
+  }
+}
+/* line 214, ../scss/custom.scss */
 .top-bar-section ul li a {
   color: #92918F;
   font-size: 1em;
+  background-color: #353535;
 }
 
-/* line 199, ../scss/custom.scss */
+/* line 221, ../scss/custom.scss */
 .top-bar-section ul li.active > a {
   color: #bb9711;
+  background-color: #353535;
 }
 
 /* line 6, ../scss/components/_buttons.scss */
@@ -7590,7 +7619,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 206, ../scss/custom.scss */
+/* line 229, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;

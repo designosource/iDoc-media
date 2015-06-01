@@ -190,15 +190,38 @@ footer{
 		}
 	}
 }
+.top-bar{
+	background-color: $menubggrey;
+	height: auto;
+	.top-bar-section ul{
+		background-color: $menubggrey;
+		li{
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+}
+@media only screen and (min-width: 940px) {
+ul.title-area {
+  padding-top: 16px;
+}
+.top-bar .title-area {
+  padding-left: 16%;
+  padding-right: 6%;
+  
+}
+}
 .top-bar-section ul li a{
 
 	color:$menuitemcolor;
 	font-size: 1em;
+	background-color: $menubggrey;
 
 }
 .top-bar-section ul li.active > a {
 
 	color:$brown;
+	background-color: $menubggrey;
 
 }
 // Components
