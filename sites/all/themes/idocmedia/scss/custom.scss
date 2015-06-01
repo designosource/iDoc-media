@@ -130,6 +130,11 @@ h2{
 	}
 
 }
+.l-brickland-region{
+	&.row{
+		max-width: 100%;
+	}
+}
 .l-storyworld-region{
 	text-align: center;
 }

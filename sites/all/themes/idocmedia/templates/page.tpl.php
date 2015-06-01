@@ -124,6 +124,7 @@
       <!--.l-header-region -->
       <section class="l-brickland-region row">
         <div class="large-12 columns fullW">
+        <img src="sites/all/themes/idocmedia/images/brickland.jpg" />
           <?php print render($page['brickland']); ?>
         </div>
       </section>
