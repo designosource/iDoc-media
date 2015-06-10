@@ -7506,7 +7506,7 @@ h2 {
 }
 
 /* line 142, ../scss/custom.scss */
-.l-whatmenu-region :before {
+.l-whatmenu-region:before {
   background-color: #E3E3E3;
   height: 2px;
   width: 100%;

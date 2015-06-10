@@ -139,7 +139,7 @@ h2{
 
 }
 .l-whatmenu-region{
-		:before {
+		&:before {
   background-color: $greyline;
   height: 2px;
   width: 100%;
