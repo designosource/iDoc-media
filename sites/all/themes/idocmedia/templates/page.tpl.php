@@ -84,13 +84,21 @@
 
   </header>
   <!--/.l-header -->
-
- <?php if (!empty($page['what'])): ?>
+<?php if (!empty($page['whatmenu'])): ?>
       <!--.l-header-region -->
-      <section class="l-what-region row">
+      <section class="l-whatmenu-region row">
       <object data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
   <img src="sites/all/themes/idocmedia/logo.png" />
 </object>
+        <div class="large-10 columns">
+          <?php print render($page['whatmenu']); ?>
+        </div>
+      </section>
+      <!--/.l-header-region -->
+    <?php endif; ?>
+ <?php if (!empty($page['what'])): ?>
+      <!--.l-header-region -->
+      <section class="l-what-region row">
         <div class="large-12 columns">
           <?php print render($page['what']); ?>
         </div>
