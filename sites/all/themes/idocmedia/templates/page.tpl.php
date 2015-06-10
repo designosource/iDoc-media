@@ -90,7 +90,7 @@
       <object data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
   <img src="sites/all/themes/idocmedia/logo.png" />
 </object>
-        <div class="large-10 columns">
+        <div class="large-9 columns">
           <?php print render($page['whatmenu']); ?>
         </div>
       </section>
