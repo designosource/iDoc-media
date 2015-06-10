@@ -148,6 +148,7 @@ h2{
   z-index: -1;
 }
 	&.row{
+		position:relative;
 		object{
 			width: 20%;
 			float:left;
