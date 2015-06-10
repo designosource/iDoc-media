@@ -11,11 +11,6 @@
       <?php endif; ?>
         <nav class="top-bar"<?php print $top_bar_options; ?>>
           <ul class="title-area">
-            <li class="name">
-            <object data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
-  <img src="sites/all/themes/idocmedia/logo.png" />
-</object>
-</li>
             <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
@@ -80,6 +75,7 @@
         
           <?php print render($page['header']); ?>
           <div class="videoWrapper">
+          <img src="sites/all/themes/idocmedia/images/bg.jpg" />
         </div>
         </div>
       </section>
@@ -92,7 +88,9 @@
  <?php if (!empty($page['what'])): ?>
       <!--.l-header-region -->
       <section class="l-what-region row">
-                <img src="sites/all/themes/idocmedia/images/bg.jpg" />
+      <object data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
+  <img src="sites/all/themes/idocmedia/logo.png" />
+</object>
         <div class="large-12 columns">
           <?php print render($page['what']); ?>
         </div>
