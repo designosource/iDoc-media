@@ -80,7 +80,6 @@
         
           <?php print render($page['header']); ?>
           <div class="videoWrapper">
-          <img src="sites/all/themes/idocmedia/images/bg.jpg" />
         </div>
         </div>
       </section>
@@ -93,6 +92,7 @@
  <?php if (!empty($page['what'])): ?>
       <!--.l-header-region -->
       <section class="l-what-region row">
+                <img src="sites/all/themes/idocmedia/images/bg.jpg" />
         <div class="large-12 columns">
           <?php print render($page['what']); ?>
         </div>
