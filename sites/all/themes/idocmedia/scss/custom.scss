@@ -139,10 +139,19 @@ h2{
 
 }
 .l-whatmenu-region{
+		:before {
+  background-color: $greyline;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 19px;
+  z-index: -1;
+}
 	&.row{
 		object{
 			width: 20%;
 			float:left;
+			background-color: #FFF;
 		}
 		.block-menu-menu-idoc-menu {
 		  padding-top: 50px;
