@@ -75,6 +75,12 @@
  * @see template_process()
  */
 ?>
+<div class="row logo">
+<object data="../sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
+  
+</object>
+</div>
+<div class="link"><a href="../">Terug naar iDoc.media</a></div>
 <?php 
   print render($content["field_header"]);
 ?>
