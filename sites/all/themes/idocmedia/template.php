@@ -200,3 +200,8 @@ function THEMENAME_preprocess_views_view_fields(&$variables) {
 //    }
 //  }
 //}
+function idocmedia_preprocess_node(&$variables){
+  if ($variables['node']->type == 'referentie') {
+    $variables['title'] = FALSE;
+  }
+}
