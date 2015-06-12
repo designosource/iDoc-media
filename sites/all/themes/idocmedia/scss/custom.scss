@@ -151,8 +151,59 @@ h2{
 }
 
 /* NAVIGATION - HOME */
-.l-whatmenu-region {
+.wrapper {
+  position: relative;
 
+  .line {
+    background-color: #ddd;
+    height: 3px;
+    position: absolute;
+    top: 34px;
+    width: 100%;
+  }
+}
+
+.l-whatmenu-region {
+  .sub-nav {
+    margin-top: 10px;
+  }
+
+  li {
+    position: relative;
+
+    &.active {
+      .circle {
+        background-color: #bb9711;
+      }
+
+      a {
+        background-color: transparent;
+        color: #000;
+        font-weight: normal;
+        padding: 0;
+      }
+    }
+
+    .circle {
+      background-color: #fff;
+      border-radius: 50%;
+      height: 20px;
+      margin: 0 auto;
+      position: relative;
+      width: 20px;
+
+      &:after {
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        content: "";
+        height: 28px;
+        left: -4px;
+        position: absolute;
+        top: -4px;
+        width: 28px;
+      }
+    }
+  }
 }
 
 .l-brickland-region{

@@ -88,6 +88,7 @@
 <?php if (!empty($page['whatmenu'])): ?>
   <!--.l-header-region -->
   <div class="wrapper" data-magellan-expedition="fixed">
+    <div class="line"></div>
     <nav class="l-whatmenu-region row">
       <object class="large-3 columns" data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
         <img src="sites/all/themes/idocmedia/logo.png" />
