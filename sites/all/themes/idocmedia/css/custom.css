@@ -7678,24 +7678,29 @@ footer.l-footer.row {
   }
 
   /* line 280, ../scss/custom.scss */
+  .l-how-region h2 {
+    padding-top: 50px;
+  }
+
+  /* line 283, ../scss/custom.scss */
   .top-bar .title-area {
     padding-left: 16%;
     padding-right: 6%;
   }
 
-  /* line 285, ../scss/custom.scss */
+  /* line 288, ../scss/custom.scss */
   .node-pagina h2, .node-referentie h2 {
     text-align: none;
   }
 }
-/* line 289, ../scss/custom.scss */
+/* line 292, ../scss/custom.scss */
 .top-bar-section ul li a {
   color: #92918F;
   font-size: 1em;
   background-color: #353535;
 }
 
-/* line 296, ../scss/custom.scss */
+/* line 299, ../scss/custom.scss */
 .top-bar-section ul li.active > a {
   color: #bb9711;
   background-color: #353535;
@@ -7711,7 +7716,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 304, ../scss/custom.scss */
+/* line 307, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;
