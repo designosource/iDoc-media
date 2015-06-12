@@ -72,7 +72,7 @@
       <!--.l-header-region -->
       <section class="l-header-region row videoheader">
         <div class="fullW large-12 columns">
-        
+
           <?php print render($page['header']); ?>
           <div class="videoWrapper">
           <img src="sites/all/themes/idocmedia/images/bg.jpg" />
@@ -84,24 +84,27 @@
 
   </header>
   <!--/.l-header -->
-<?php if (!empty($page['whatmenu'])): ?>
-      <!--.l-header-region -->
-      <section class="l-whatmenu-region row">
-      <div class="baar">
-      <object data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
-  <img src="sites/all/themes/idocmedia/logo.png" />
-</object>
 
-        <div class="large-9 columns">
-          <?php print render($page['whatmenu']); ?>
-        </div>
-        </div>
-      </section>
-      <!--/.l-header-region -->
-    <?php endif; ?>
+<?php if (!empty($page['whatmenu'])): ?>
+  <!--.l-header-region -->
+  <div class="wrapper" data-magellan-expedition="fixed">
+    <div class="line"></div>
+    <nav class="l-whatmenu-region row">
+      <object class="large-3 columns logo" data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
+        <img src="sites/all/themes/idocmedia/logo.png" />
+      </object>
+      <div class="large-9 columns">
+        <?php print render($page['whatmenu']); ?>
+      </div>
+    </nav>
+  </div>
+  <!--/.l-header-region -->
+<?php endif; ?>
+
  <?php if (!empty($page['what'])): ?>
       <!--.l-header-region -->
-      <section class="l-what-region row">
+      <section class="l-what-region row" data-magellan-destination="what">
+        <a name="what"></a>
         <div class="large-12 columns">
           <?php print render($page['what']); ?>
         </div>
@@ -111,7 +114,8 @@
 
     <?php if (!empty($page['how'])): ?>
       <!--.l-header-region -->
-      <section class="l-how-region row">
+      <section class="l-how-region row" data-magellan-destination="how">
+        <a name="how"></a>
         <div class="large-12 columns">
           <?php print render($page['how']); ?>
         </div>
@@ -121,7 +125,8 @@
 
     <?php if (!empty($page['referenties'])): ?>
       <!--.l-header-region -->
-      <section class="l-referenties-region row">
+      <section class="l-referenties-region row" data-magellan-destination="cases">
+        <a name="cases"></a>
         <div class="large-12 columns fullW">
           <?php print render($page['referenties']); ?>
         </div>
@@ -141,7 +146,8 @@
 
     <?php if (!empty($page['storyworld'])): ?>
       <!--.l-header-region -->
-      <section class="l-storyworld-region row">
+      <section class="l-storyworld-region row" data-magellan-destination="storyworld">
+        <a name="storyworld"></a>
         <div class="large-12 columns">
           <?php print render($page['storyworld']); ?>
         </div>
@@ -276,7 +282,6 @@
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
-
   </footer>
   <!--/.footer-->
 
