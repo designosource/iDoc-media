@@ -259,6 +259,10 @@ footer{
 	}
 	}
 }
+.node-pagina h1, .node-referentie h1 {
+  font-weight: 400;
+}
+
 @media only screen and (min-width: 940px) {
 ul.title-area {
   padding-top: 16px;
@@ -267,6 +271,9 @@ ul.title-area {
   padding-left: 16%;
   padding-right: 6%;
   
+}
+.node-pagina h2, .node-referentie h2{
+	text-align: none;
 }
 }
 .top-bar-section ul li a{

@@ -7653,26 +7653,36 @@ footer.l-footer.row {
   }
 }
 
+/* line 262, ../scss/custom.scss */
+.node-pagina h1, .node-referentie h1 {
+  font-weight: 400;
+}
+
 @media only screen and (min-width: 940px) {
-  /* line 263, ../scss/custom.scss */
+  /* line 267, ../scss/custom.scss */
   ul.title-area {
     padding-top: 16px;
   }
 
-  /* line 266, ../scss/custom.scss */
+  /* line 270, ../scss/custom.scss */
   .top-bar .title-area {
     padding-left: 16%;
     padding-right: 6%;
   }
+
+  /* line 275, ../scss/custom.scss */
+  .node-pagina h2, .node-referentie h2 {
+    text-align: none;
+  }
 }
-/* line 272, ../scss/custom.scss */
+/* line 279, ../scss/custom.scss */
 .top-bar-section ul li a {
   color: #92918F;
   font-size: 1em;
   background-color: #353535;
 }
 
-/* line 279, ../scss/custom.scss */
+/* line 286, ../scss/custom.scss */
 .top-bar-section ul li.active > a {
   color: #bb9711;
   background-color: #353535;
@@ -7688,7 +7698,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 287, ../scss/custom.scss */
+/* line 294, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;
