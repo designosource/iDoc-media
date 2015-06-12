@@ -90,7 +90,7 @@
   <div class="wrapper" data-magellan-expedition="fixed">
     <div class="line"></div>
     <nav class="l-whatmenu-region row">
-      <object class="large-3 columns" data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
+      <object class="large-3 columns logo" data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
         <img src="sites/all/themes/idocmedia/logo.png" />
       </object>
       <div class="large-9 columns">

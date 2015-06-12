@@ -157,13 +157,19 @@ h2{
   .line {
     background-color: #ddd;
     height: 3px;
+    left: 0;
     position: absolute;
     top: 34px;
     width: 100%;
+    z-index: -99;
   }
 }
 
 .l-whatmenu-region {
+  .logo {
+    background-color: #fff;
+  }
+
   .sub-nav {
     margin-top: 10px;
   }
@@ -187,12 +193,14 @@ h2{
     .circle {
       background-color: #fff;
       border-radius: 50%;
+      // color: #bb9711;
       height: 20px;
-      margin: 0 auto;
+      margin: 0 auto 10px;
       position: relative;
       width: 20px;
 
       &:after {
+        background-color: #fff;
         border: 1px solid #ccc;
         border-radius: 50%;
         content: "";
@@ -201,6 +209,7 @@ h2{
         position: absolute;
         top: -4px;
         width: 28px;
+        z-index: -1;
       }
     }
   }
