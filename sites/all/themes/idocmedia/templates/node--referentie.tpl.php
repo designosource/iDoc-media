@@ -76,8 +76,9 @@
  */
 ?>
 <div class="row logo">
+<a href="../">
 <object data="../sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
-  
+  </a>
 </object>
 </div>
 <div class="link"><a href="../"><span>Terug</span> naar iDoc.media</a></div>
