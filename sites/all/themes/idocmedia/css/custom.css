@@ -7430,7 +7430,7 @@ p {
 }
 
 /* line 74, ../scss/custom.scss */
-h2 {
+.block-title {
   text-align: center;
 }
 
@@ -7468,22 +7468,41 @@ h2 {
 }
 
 /* line 105, ../scss/custom.scss */
+.l-what-region .button, .l-how-region .button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 109, ../scss/custom.scss */
+.l-how-region .button {
+  margin-top: 30px;
+}
+
+/* line 113, ../scss/custom.scss */
+.footerlinks a {
+  color: #3a3a3a;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+}
+
+/* line 118, ../scss/custom.scss */
 .logo object {
   width: 20%;
 }
 
-/* line 108, ../scss/custom.scss */
+/* line 121, ../scss/custom.scss */
 .link {
   float: right;
   padding-right: 5%;
+  padding-bottom: 1%;
 }
 
-/* line 113, ../scss/custom.scss */
+/* line 127, ../scss/custom.scss */
 .baar {
   background-color: #FFF;
 }
 
-/* line 117, ../scss/custom.scss */
+/* line 131, ../scss/custom.scss */
 .block-views-referenties-block h2 {
   text-align: center;
   background-color: #bb9711;
@@ -7493,40 +7512,40 @@ h2 {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-/* line 126, ../scss/custom.scss */
+/* line 140, ../scss/custom.scss */
 .block-views-referenties-block .view-header {
   text-align: center;
   background-color: #bb9711;
 }
-/* line 129, ../scss/custom.scss */
+/* line 143, ../scss/custom.scss */
 .block-views-referenties-block .view-header p {
   color: #fff;
   padding-bottom: 50px;
   margin-bottom: 0px;
 }
 
-/* line 138, ../scss/custom.scss */
+/* line 152, ../scss/custom.scss */
 .l-referenties-region.row {
   max-width: 100%;
 }
-/* line 140, ../scss/custom.scss */
+/* line 154, ../scss/custom.scss */
 .l-referenties-region.row table {
   margin-left: auto;
   margin-right: auto;
   border: none;
   margin-bottom: 0px;
 }
-/* line 145, ../scss/custom.scss */
+/* line 159, ../scss/custom.scss */
 .l-referenties-region.row table tr td {
   padding: 0px;
 }
 
 /* NAVIGATION - HOME */
-/* line 154, ../scss/custom.scss */
+/* line 168, ../scss/custom.scss */
 .wrapper {
   position: relative;
 }
-/* line 157, ../scss/custom.scss */
+/* line 171, ../scss/custom.scss */
 .wrapper .line {
   background-color: #ddd;
   height: 3px;
@@ -7537,30 +7556,30 @@ h2 {
   z-index: -99;
 }
 
-/* line 169, ../scss/custom.scss */
+/* line 183, ../scss/custom.scss */
 .l-whatmenu-region .logo {
   background-color: #fff;
 }
-/* line 173, ../scss/custom.scss */
+/* line 187, ../scss/custom.scss */
 .l-whatmenu-region .sub-nav {
   margin-top: 10px;
 }
-/* line 177, ../scss/custom.scss */
+/* line 191, ../scss/custom.scss */
 .l-whatmenu-region li {
   position: relative;
 }
-/* line 181, ../scss/custom.scss */
+/* line 195, ../scss/custom.scss */
 .l-whatmenu-region li.active .circle {
   background-color: #bb9711;
 }
-/* line 185, ../scss/custom.scss */
+/* line 199, ../scss/custom.scss */
 .l-whatmenu-region li.active a {
   background-color: transparent;
   color: #000;
   font-weight: normal;
   padding: 0;
 }
-/* line 193, ../scss/custom.scss */
+/* line 207, ../scss/custom.scss */
 .l-whatmenu-region li .circle {
   background-color: #fff;
   border-radius: 50%;
@@ -7569,7 +7588,7 @@ h2 {
   position: relative;
   width: 20px;
 }
-/* line 202, ../scss/custom.scss */
+/* line 216, ../scss/custom.scss */
 .l-whatmenu-region li .circle:after {
   background-color: #fff;
   border: 1px solid #ccc;
@@ -7583,53 +7602,79 @@ h2 {
   z-index: -1;
 }
 
-/* line 219, ../scss/custom.scss */
+/* line 233, ../scss/custom.scss */
 .l-brickland-region.row {
   max-width: 100%;
 }
+/* line 236, ../scss/custom.scss */
+.l-brickland-region img {
+  height: 438px;
+  width: 100%;
+}
 
-/* line 223, ../scss/custom.scss */
+/* line 241, ../scss/custom.scss */
+.block-views-referenties-block a img {
+  height: 310px;
+}
+
+/* line 244, ../scss/custom.scss */
+.block-views-referenties-block a img:hover {
+  opacity: 0.5;
+}
+
+/* line 247, ../scss/custom.scss */
 .l-storyworld-region {
   text-align: center;
 }
 
-/* line 226, ../scss/custom.scss */
+/* line 250, ../scss/custom.scss */
+.link a {
+  font-size: 1.3em;
+  color: #3a3a3a;
+}
+/* line 253, ../scss/custom.scss */
+.link a span {
+  border-bottom: 1px solid #3a3a3a;
+  padding-bottom: 1%;
+}
+
+/* line 259, ../scss/custom.scss */
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   color: #6D696A;
 }
 
-/* line 231, ../scss/custom.scss */
+/* line 264, ../scss/custom.scss */
 .l-how-region {
   background-color: #f6f6f7;
 }
-/* line 233, ../scss/custom.scss */
+/* line 266, ../scss/custom.scss */
 .l-how-region.row {
   max-width: 100%;
 }
-/* line 235, ../scss/custom.scss */
+/* line 268, ../scss/custom.scss */
 .l-how-region.row p, .l-how-region.row h2 {
   text-align: center;
 }
 
-/* line 242, ../scss/custom.scss */
+/* line 275, ../scss/custom.scss */
 .l-sponsors-region {
   background-color: #f6f6f7;
   min-height: 250px;
 }
-/* line 245, ../scss/custom.scss */
+/* line 278, ../scss/custom.scss */
 .l-sponsors-region table {
   border: none;
   margin-left: auto;
   margin-right: auto;
   background: none;
 }
-/* line 250, ../scss/custom.scss */
+/* line 283, ../scss/custom.scss */
 .l-sponsors-region table tr.even, .l-sponsors-region table tr.alt, .l-sponsors-region table tr:nth-of-type(even) {
   background: none;
 }
-/* line 254, ../scss/custom.scss */
+/* line 287, ../scss/custom.scss */
 .l-sponsors-region img {
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -7641,7 +7686,7 @@ h2 {
   -o-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-/* line 262, ../scss/custom.scss */
+/* line 295, ../scss/custom.scss */
 .l-sponsors-region img:hover {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -7654,62 +7699,77 @@ h2 {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 276, ../scss/custom.scss */
+/* line 309, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 279, ../scss/custom.scss */
+/* line 312, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 282, ../scss/custom.scss */
+/* line 315, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 286, ../scss/custom.scss */
+/* line 319, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;
 }
 
-/* line 292, ../scss/custom.scss */
+/* line 325, ../scss/custom.scss */
 .top-bar {
   background-color: #353535;
   height: auto;
 }
-/* line 295, ../scss/custom.scss */
+/* line 328, ../scss/custom.scss */
 .top-bar .top-bar-section ul {
   background-color: #353535;
 }
 @media only screen and (min-width: 940px) {
-  /* line 298, ../scss/custom.scss */
+  /* line 331, ../scss/custom.scss */
   .top-bar .top-bar-section ul li {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
 
+/* line 338, ../scss/custom.scss */
+.node-pagina h1, .node-referentie h1 {
+  font-weight: 400;
+}
+
 @media only screen and (min-width: 940px) {
-  /* line 306, ../scss/custom.scss */
+  /* line 343, ../scss/custom.scss */
   ul.title-area {
     padding-top: 16px;
   }
 
-  /* line 309, ../scss/custom.scss */
+  /* line 346, ../scss/custom.scss */
+  .l-how-region h2 {
+    padding-top: 30px;
+  }
+
+  /* line 349, ../scss/custom.scss */
   .top-bar .title-area {
     padding-left: 16%;
     padding-right: 6%;
   }
+
+  /* line 354, ../scss/custom.scss */
+  .node-pagina h2, .node-referentie h2 {
+    text-align: none;
+  }
 }
-/* line 315, ../scss/custom.scss */
+/* line 358, ../scss/custom.scss */
 .top-bar-section ul li a {
   color: #92918F;
   font-size: 1em;
   background-color: #353535;
 }
 
-/* line 322, ../scss/custom.scss */
+/* line 365, ../scss/custom.scss */
 .top-bar-section ul li.active > a {
   color: #bb9711;
   background-color: #353535;
@@ -7725,7 +7785,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 330, ../scss/custom.scss */
+/* line 373, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;

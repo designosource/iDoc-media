@@ -71,7 +71,7 @@ p{
 	color:$darkgrey;
 }
 
-h2{
+.block-title{
 	text-align: center;
 }
 
@@ -102,12 +102,26 @@ h2{
 
 	}
 }
+.l-what-region .button, .l-how-region .button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.l-how-region .button{
+	  margin-top: 30px;
+}
+
+.footerlinks a {
+  color: $darkgreylinks;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0px;
+}
 .logo object{
 	width:20%;
 }
 .link{
 	float:right;
 	padding-right:5%;
+	padding-bottom: 1%;
 
 }
 .baar{
@@ -219,9 +233,28 @@ h2{
 	&.row{
 		max-width: 100%;
 	}
+	img{
+		height: 438px;
+  		width: 100%;
+	}
+}
+.block-views-referenties-block a img{
+	height:310px;
+}
+.block-views-referenties-block a img:hover{
+	opacity:0.5;
 }
 .l-storyworld-region{
 	text-align: center;
+}
+.link a {
+  font-size: 1.3em;
+  color:$darkgreylinks;
+  span{
+  	border-bottom: 1px solid $darkgreylinks;
+  	padding-bottom: 1%;
+  }
+
 }
 h2{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -302,14 +335,24 @@ footer{
 	}
 	}
 }
+.node-pagina h1, .node-referentie h1 {
+  font-weight: 400;
+}
+
 @media only screen and (min-width: 940px) {
 ul.title-area {
   padding-top: 16px;
+}
+.l-how-region h2{
+	padding-top: 30px;
 }
 .top-bar .title-area {
   padding-left: 16%;
   padding-right: 6%;
 
+}
+.node-pagina h2, .node-referentie h2{
+	text-align: none;
 }
 }
 .top-bar-section ul li a{
