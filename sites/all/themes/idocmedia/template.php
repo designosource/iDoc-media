@@ -200,3 +200,21 @@ function THEMENAME_preprocess_views_view_fields(&$variables) {
 //    }
 //  }
 //}
+
+function idocmedia_menu_tree($variables) {
+  return '<ul class="sub-nav">' . $variables ['tree'] . '</ul>';
+}
+
+function idocmedia_menu_link(array $variables) {
+  $element = $variables ['element'];
+  $sub_menu = '';
+
+  $element['#attributes']['data-magellan-arrival'] = $element['#localized_options']['fragment'];
+
+  if ($element ['#below']) {
+    $sub_menu = drupal_render($element ['#below']);
+  }
+
+  $output = l($element ['#title'], $element ['#href'], $element ['#localized_options']);
+  return '<li' . drupal_attributes($element ['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}
