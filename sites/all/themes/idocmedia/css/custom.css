@@ -7568,49 +7568,54 @@ p {
 .l-brickland-region.row {
   max-width: 100%;
 }
+/* line 192, ../scss/custom.scss */
+.l-brickland-regionimg {
+  height: 438px;
+  width: 100%;
+}
 
-/* line 193, ../scss/custom.scss */
+/* line 197, ../scss/custom.scss */
 .l-storyworld-region {
   text-align: center;
 }
 
-/* line 196, ../scss/custom.scss */
+/* line 200, ../scss/custom.scss */
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   color: #6D696A;
 }
 
-/* line 201, ../scss/custom.scss */
+/* line 205, ../scss/custom.scss */
 .l-how-region {
   background-color: #f6f6f7;
 }
-/* line 203, ../scss/custom.scss */
+/* line 207, ../scss/custom.scss */
 .l-how-region.row {
   max-width: 100%;
 }
-/* line 205, ../scss/custom.scss */
+/* line 209, ../scss/custom.scss */
 .l-how-region.row p, .l-how-region.row h2 {
   text-align: center;
 }
 
-/* line 212, ../scss/custom.scss */
+/* line 216, ../scss/custom.scss */
 .l-sponsors-region {
   background-color: #f6f6f7;
   min-height: 250px;
 }
-/* line 215, ../scss/custom.scss */
+/* line 219, ../scss/custom.scss */
 .l-sponsors-region table {
   border: none;
   margin-left: auto;
   margin-right: auto;
   background: none;
 }
-/* line 220, ../scss/custom.scss */
+/* line 224, ../scss/custom.scss */
 .l-sponsors-region table tr.even, .l-sponsors-region table tr.alt, .l-sponsors-region table tr:nth-of-type(even) {
   background: none;
 }
-/* line 224, ../scss/custom.scss */
+/* line 228, ../scss/custom.scss */
 .l-sponsors-region img {
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -7622,7 +7627,7 @@ h2 {
   -o-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-/* line 232, ../scss/custom.scss */
+/* line 236, ../scss/custom.scss */
 .l-sponsors-region img:hover {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -7635,77 +7640,77 @@ h2 {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 246, ../scss/custom.scss */
+/* line 250, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 249, ../scss/custom.scss */
+/* line 253, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 252, ../scss/custom.scss */
+/* line 256, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 256, ../scss/custom.scss */
+/* line 260, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;
 }
 
-/* line 262, ../scss/custom.scss */
+/* line 266, ../scss/custom.scss */
 .top-bar {
   background-color: #353535;
   height: auto;
 }
-/* line 265, ../scss/custom.scss */
+/* line 269, ../scss/custom.scss */
 .top-bar .top-bar-section ul {
   background-color: #353535;
 }
 @media only screen and (min-width: 940px) {
-  /* line 268, ../scss/custom.scss */
+  /* line 272, ../scss/custom.scss */
   .top-bar .top-bar-section ul li {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
 
-/* line 275, ../scss/custom.scss */
+/* line 279, ../scss/custom.scss */
 .node-pagina h1, .node-referentie h1 {
   font-weight: 400;
 }
 
 @media only screen and (min-width: 940px) {
-  /* line 280, ../scss/custom.scss */
+  /* line 284, ../scss/custom.scss */
   ul.title-area {
     padding-top: 16px;
   }
 
-  /* line 283, ../scss/custom.scss */
+  /* line 287, ../scss/custom.scss */
   .l-how-region h2 {
     padding-top: 30px;
   }
 
-  /* line 286, ../scss/custom.scss */
+  /* line 290, ../scss/custom.scss */
   .top-bar .title-area {
     padding-left: 16%;
     padding-right: 6%;
   }
 
-  /* line 291, ../scss/custom.scss */
+  /* line 295, ../scss/custom.scss */
   .node-pagina h2, .node-referentie h2 {
     text-align: none;
   }
 }
-/* line 295, ../scss/custom.scss */
+/* line 299, ../scss/custom.scss */
 .top-bar-section ul li a {
   color: #92918F;
   font-size: 1em;
   background-color: #353535;
 }
 
-/* line 302, ../scss/custom.scss */
+/* line 306, ../scss/custom.scss */
 .top-bar-section ul li.active > a {
   color: #bb9711;
   background-color: #353535;
@@ -7721,7 +7726,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 310, ../scss/custom.scss */
+/* line 314, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;
