@@ -80,7 +80,7 @@
   
 </object>
 </div>
-<div class="link"><a href="../">Terug naar iDoc.media</a></div>
+<div class="link"><a href="../"><span>Terug</span> naar iDoc.media</a></div>
 <?php 
   print render($content["field_header"]);
 ?>

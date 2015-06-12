@@ -7585,42 +7585,52 @@ p {
 }
 
 /* line 203, ../scss/custom.scss */
+.link a {
+  font-size: 1.3em;
+  color: #3a3a3a;
+}
+/* line 206, ../scss/custom.scss */
+.link a span {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+/* line 211, ../scss/custom.scss */
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   color: #6D696A;
 }
 
-/* line 208, ../scss/custom.scss */
+/* line 216, ../scss/custom.scss */
 .l-how-region {
   background-color: #f6f6f7;
 }
-/* line 210, ../scss/custom.scss */
+/* line 218, ../scss/custom.scss */
 .l-how-region.row {
   max-width: 100%;
 }
-/* line 212, ../scss/custom.scss */
+/* line 220, ../scss/custom.scss */
 .l-how-region.row p, .l-how-region.row h2 {
   text-align: center;
 }
 
-/* line 219, ../scss/custom.scss */
+/* line 227, ../scss/custom.scss */
 .l-sponsors-region {
   background-color: #f6f6f7;
   min-height: 250px;
 }
-/* line 222, ../scss/custom.scss */
+/* line 230, ../scss/custom.scss */
 .l-sponsors-region table {
   border: none;
   margin-left: auto;
   margin-right: auto;
   background: none;
 }
-/* line 227, ../scss/custom.scss */
+/* line 235, ../scss/custom.scss */
 .l-sponsors-region table tr.even, .l-sponsors-region table tr.alt, .l-sponsors-region table tr:nth-of-type(even) {
   background: none;
 }
-/* line 231, ../scss/custom.scss */
+/* line 239, ../scss/custom.scss */
 .l-sponsors-region img {
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -7632,7 +7642,7 @@ h2 {
   -o-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-/* line 239, ../scss/custom.scss */
+/* line 247, ../scss/custom.scss */
 .l-sponsors-region img:hover {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -7645,77 +7655,77 @@ h2 {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 253, ../scss/custom.scss */
+/* line 261, ../scss/custom.scss */
 footer.l-footer.panel {
   background-color: #302F2F;
   margin-bottom: 0px;
 }
-/* line 256, ../scss/custom.scss */
+/* line 264, ../scss/custom.scss */
 footer.l-footer.panel p, footer.l-footer.panel a {
   color: #fff;
 }
-/* line 259, ../scss/custom.scss */
+/* line 267, ../scss/custom.scss */
 footer.l-footer.panel a {
   text-decoration: underline;
 }
-/* line 263, ../scss/custom.scss */
+/* line 271, ../scss/custom.scss */
 footer.l-footer.row {
   max-width: 100%;
   text-align: center;
 }
 
-/* line 269, ../scss/custom.scss */
+/* line 277, ../scss/custom.scss */
 .top-bar {
   background-color: #353535;
   height: auto;
 }
-/* line 272, ../scss/custom.scss */
+/* line 280, ../scss/custom.scss */
 .top-bar .top-bar-section ul {
   background-color: #353535;
 }
 @media only screen and (min-width: 940px) {
-  /* line 275, ../scss/custom.scss */
+  /* line 283, ../scss/custom.scss */
   .top-bar .top-bar-section ul li {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
 
-/* line 282, ../scss/custom.scss */
+/* line 290, ../scss/custom.scss */
 .node-pagina h1, .node-referentie h1 {
   font-weight: 400;
 }
 
 @media only screen and (min-width: 940px) {
-  /* line 287, ../scss/custom.scss */
+  /* line 295, ../scss/custom.scss */
   ul.title-area {
     padding-top: 16px;
   }
 
-  /* line 290, ../scss/custom.scss */
+  /* line 298, ../scss/custom.scss */
   .l-how-region h2 {
     padding-top: 30px;
   }
 
-  /* line 293, ../scss/custom.scss */
+  /* line 301, ../scss/custom.scss */
   .top-bar .title-area {
     padding-left: 16%;
     padding-right: 6%;
   }
 
-  /* line 298, ../scss/custom.scss */
+  /* line 306, ../scss/custom.scss */
   .node-pagina h2, .node-referentie h2 {
     text-align: none;
   }
 }
-/* line 302, ../scss/custom.scss */
+/* line 310, ../scss/custom.scss */
 .top-bar-section ul li a {
   color: #92918F;
   font-size: 1em;
   background-color: #353535;
 }
 
-/* line 309, ../scss/custom.scss */
+/* line 317, ../scss/custom.scss */
 .top-bar-section ul li.active > a {
   color: #bb9711;
   background-color: #353535;
@@ -7731,7 +7741,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 317, ../scss/custom.scss */
+/* line 325, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;

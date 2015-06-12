@@ -200,6 +200,14 @@ p{
 .l-storyworld-region{
 	text-align: center;
 }
+.link a {
+  font-size: 1.3em;
+  color:$darkgreylinks;
+  span{
+  	border-bottom: 1px solid $darkgreylinks;
+  }
+
+}
 h2{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: normal;
