@@ -149,29 +149,30 @@ h2{
 	}
 
 }
-.l-whatmenu-region{
-		&:before {
+
+/* .l-whatmenu-region{
+  &:before {
   background-color: $greyline;
   height: 2px;
   width: 100%;
   position: absolute;
   top: 19px;
   z-index: -1;
-}
-	&.row{
-		position:relative;
-		object{
-			width: 20%;
-			float:left;
-			background-color: #FFF;
-		}
-		.block-menu-menu-idoc-menu {
-		  padding-top: 50px;
-		    background-color: #fff;
-		}
+  }
+  &.row{
+  position:relative;
+  object{
+  width: 20%;
+  float:left;
+  background-color: #FFF;
+  }
+  .block-menu-menu-idoc-menu {
+  padding-top: 50px;
+  background-color: #fff;
+  }
+  }
+} */
 
-	}
-	}
 .l-brickland-region{
 	&.row{
 		max-width: 100%;
@@ -191,14 +192,14 @@ h2{
 		max-width: 100%;
 		p, h2{
 			text-align: center;
-			
+
 		}
 
 	}
 	}
 .l-sponsors-region{
 	background-color: $lightgrey;
-  min-height: 250px;	
+  min-height: 250px;
   table{
 		border:none;
 		margin-left: auto;
@@ -266,7 +267,7 @@ ul.title-area {
 .top-bar .title-area {
   padding-left: 16%;
   padding-right: 6%;
-  
+
 }
 }
 .top-bar-section ul li a{
