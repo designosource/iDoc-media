@@ -206,6 +206,10 @@ p{
 }
 
 .l-whatmenu-region {
+  .large-9 {
+    width: 100%;
+  }
+
   .logo {
     background-color: #fff;
     max-width: 250px;
@@ -267,6 +271,28 @@ p{
         top: -4px;
         width: 28px;
         z-index: -1;
+      }
+    }
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1020px) {
+  .hamburger {
+    display: none;
+  }
+
+  .l-whatmenu-region .large-9 {
+    width: 75%;
+  }
+
+  .sub-nav {
+    li {
+      display: inline-block;
+      width: auto;
+
+      .circle {
+        display: block;
       }
     }
   }
