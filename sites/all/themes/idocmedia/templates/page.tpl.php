@@ -93,6 +93,13 @@
       <object class="large-3 columns logo" data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
         <img src="sites/all/themes/idocmedia/logo.png" />
       </object>
+      <div class="hamburger">
+        <div class="inner">
+          <div class="nav-line"></div>
+          <div class="nav-line middle"></div>
+          <div class="nav-line"></div>
+        </div>
+      </div>
       <div class="large-9 columns">
         <?php print render($page['whatmenu']); ?>
       </div>
