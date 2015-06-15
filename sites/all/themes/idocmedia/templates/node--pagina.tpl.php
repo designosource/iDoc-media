@@ -77,7 +77,7 @@
 ?>
 <div class="row logo">
 
-<object data="../sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
+<object data="sites/all/themes/idocmedia/logo.svg" type="image/svg+xml">
   
 </object>
 </div>
