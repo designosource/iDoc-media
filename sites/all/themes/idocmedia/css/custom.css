@@ -7777,7 +7777,7 @@ footer.l-footer.row {
 
 /* line 371, ../scss/custom.scss */
 .node-pagina ul, .node-referentie ul {
-  list-style-image: url("../images/bullet.gif");
+  list-style-image: url("../images/bullet.png");
 }
 
 /* line 6, ../scss/components/_buttons.scss */
