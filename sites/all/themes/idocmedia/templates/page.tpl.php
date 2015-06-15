@@ -100,7 +100,7 @@
           <div class="nav-line"></div>
         </div>
       </div>
-      <div class="large-9 columns">
+      <div class="large-9 columns main-nav nav-hidden">
         <?php print render($page['whatmenu']); ?>
       </div>
     </nav>

@@ -205,6 +205,10 @@ p{
   }
 }
 
+.nav-hidden {
+  display: none;
+}
+
 .l-whatmenu-region {
   .large-9 {
     width: 100%;
@@ -276,7 +280,6 @@ p{
   }
 }
 
-/* Desktops and laptops ----------- */
 @media only screen and (min-width : 1020px) {
   .hamburger {
     display: none;
@@ -284,6 +287,10 @@ p{
 
   .l-whatmenu-region .large-9 {
     width: 75%;
+  }
+
+  .nav-hidden {
+    display: block;
   }
 
   .sub-nav {
