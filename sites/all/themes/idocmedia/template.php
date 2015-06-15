@@ -209,7 +209,9 @@ function idocmedia_menu_link(array $variables) {
   $element = $variables ['element'];
   $sub_menu = '';
 
-  $element['#attributes']['data-magellan-arrival'] = $element['#localized_options']['fragment'];
+  if ($element['#localized_options']['fragment']) {
+    $element['#attributes']['data-magellan-arrival'] = $element['#localized_options']['fragment'];
+  }
 
   if ($element ['#below']) {
     $sub_menu = drupal_render($element ['#below']);
