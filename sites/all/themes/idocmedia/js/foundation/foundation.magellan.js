@@ -10,7 +10,9 @@
 
     settings : {
       activeClass: 'active',
-      threshold: 0
+      threshold: 0,
+      throttle_delay: 50,
+      destination_threshold: -200
     },
 
     init : function (scope, method, options) {
