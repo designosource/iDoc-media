@@ -368,6 +368,9 @@ ul.title-area {
 	background-color: $menubggrey;
 
 }
+.node-pagina ul, .node-referentie ul {
+  list-style-image: url("../images/bullet.gif");
+}
 // Components
  @import "components/buttons";
 .darkredbg{
