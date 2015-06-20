@@ -116,8 +116,10 @@
       <!--.l-header-region -->
       <section class="l-how-region row" data-magellan-destination="how">
         <a name="how"></a>
-        <div class="large-12 columns">
-          <?php print render($page['how']); ?>
+        <div class="samewidth">
+          <div class="large-12 columns">
+            <?php print render($page['how']); ?>
+          </div>
         </div>
       </section>
       <!--/.l-header-region -->

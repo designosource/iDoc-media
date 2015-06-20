@@ -371,6 +371,11 @@ ul.title-area {
 .node-pagina ul, .node-referentie ul {
   list-style-image: url("../images/bullet.png");
 }
+.samewidth{
+	max-width: 62.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
 // Components
  @import "components/buttons";
 .darkredbg{
