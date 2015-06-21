@@ -78,13 +78,7 @@ p{
 .videoWrapper video{
 	width: 100%;
 }
-.block-block-1{
-	position: absolute;
-	left: 30%;
-  	right: 30%;
-  	z-index: 20;
-  	top: 30%;
-}
+
 
 @media only screen and (min-width: 768px) {
 .block-block-8{
@@ -100,6 +94,13 @@ p{
 	}
   }
 }
+.block-block-1{
+	position: absolute;
+	left: 30%;
+  	right: 30%;
+  	z-index: 20;
+  	top: 30%;
+}
 }
 @media only screen and (max-width: 480px) {
 .block-block-8{
@@ -112,6 +113,16 @@ p{
 		font-size: 2em;
 	}
   }
+  .videoWrapper img{
+  	height: 328px;
+  }
+  .block-block-1 {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  z-index: 20;
+  top: 4%;
+}
 }
 .l-referenties-region.row table tr td{
 	display:block;
