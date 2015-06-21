@@ -93,6 +93,12 @@ p{
   right: 25%;
   z-index: 20;
   top: 70px;
+  
+  p{
+	span{
+		font-size: 4em;
+	}
+  }
 }
 }
 @media only screen and (max-width: 480px) {
