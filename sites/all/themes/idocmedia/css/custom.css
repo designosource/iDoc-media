@@ -7458,7 +7458,7 @@ p {
     top: 70px;
   }
   /* line 98, ../scss/custom.scss */
-  .block-block-8 p span {
+  .block-block-8 p .title {
     font-size: 4em;
   }
 }
@@ -7471,8 +7471,8 @@ p {
     top: 70px;
   }
   /* line 111, ../scss/custom.scss */
-  .block-block-8 p span {
-    font-size: 3em;
+  .block-block-8 p .title {
+    font-size: 2em;
   }
 }
 /* line 118, ../scss/custom.scss */

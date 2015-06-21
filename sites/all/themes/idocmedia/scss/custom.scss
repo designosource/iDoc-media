@@ -95,7 +95,7 @@ p{
   top: 70px;
   
   p{
-	span{
+	.title{
 		font-size: 4em;
 	}
   }
@@ -108,8 +108,8 @@ p{
   z-index: 20;
   top: 70px;
   p{
-	span{
-		font-size: 3em;
+	.title{
+		font-size: 2em;
 	}
   }
 }
