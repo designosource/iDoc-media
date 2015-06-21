@@ -7458,7 +7458,7 @@ p {
     top: 70px;
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   /* line 99, ../scss/custom.scss */
   .block-block-8 {
     position: absolute;
