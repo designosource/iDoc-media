@@ -85,12 +85,28 @@ p{
   	z-index: 20;
   	top: 30%;
 }
+
+@media only screen and (min-width: 768px) {
 .block-block-8{
 	position: absolute;
     left: 25%;
   right: 25%;
   z-index: 20;
   top: 70px;
+}
+}
+@media only screen and (min-width: 480px) {
+.block-block-8{
+	position: absolute;
+  right: 0%;
+  z-index: 20;
+  top: 70px;
+  p{
+	span{
+		font-size: 3em;
+	}
+  }
+}
 }
 .block-menu-menu-idoc-menu{
 	li{
