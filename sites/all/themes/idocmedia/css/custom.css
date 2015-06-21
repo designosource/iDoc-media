@@ -7451,8 +7451,8 @@ p {
 /* line 88, ../scss/custom.scss */
 .block-block-8 {
   position: absolute;
-  left: 30%;
-  right: 30%;
+  left: 25%;
+  right: 25%;
   z-index: 20;
   top: 70px;
 }
@@ -7859,6 +7859,13 @@ footer.l-footer.row {
   list-style-image: url("../images/bullet.png");
 }
 
+/* line 374, ../scss/custom.scss */
+.samewidth {
+  max-width: 62.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* line 6, ../scss/components/_buttons.scss */
 .button, .button:hover {
   background-color: #bb9711;
@@ -7869,7 +7876,7 @@ footer.l-footer.row {
   border-bottom: 5px solid #8c710d;
 }
 
-/* line 454, ../scss/custom.scss */
+/* line 381, ../scss/custom.scss */
 .darkredbg {
   background-color: #A67D66;
   border-bottom: 5px solid #896450;
