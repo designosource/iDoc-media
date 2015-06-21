@@ -179,9 +179,45 @@ p{
   }
 }
 
+.hamburger {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  width: 20%;
+
+  .inner {
+    background-color: #eee;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    padding: 0.5em;
+  }
+
+  .nav-line {
+    background-color: #000;
+    height: 6px;
+    width: 35px;
+  }
+
+  .nav-line.middle {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+}
+
+.nav-hidden {
+  display: none;
+}
+
 .l-whatmenu-region {
+  .large-9 {
+    width: 100%;
+  }
+
   .logo {
     background-color: #fff;
+    max-width: 250px;
+    width: 80%;
   }
 
   .sub-nav {
@@ -190,6 +226,19 @@ p{
 
   li {
     position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    a {
+      display: block;
+      padding: 0.2em;
+      width: 100%;
+
+      &:hover {
+        color: #000;
+      }
+    }
 
     &.active {
       .circle {
@@ -213,6 +262,8 @@ p{
       position: relative;
       width: 20px;
 
+      display: none;
+
       &:after {
         background-color: #fff;
         border: 1px solid #ccc;
@@ -228,6 +279,33 @@ p{
     }
   }
 }
+
+@media only screen and (min-width : 1020px) {
+  .hamburger {
+    display: none;
+  }
+
+  .l-whatmenu-region .large-9 {
+    width: 75%;
+  }
+
+  .nav-hidden {
+    display: block;
+  }
+
+  .sub-nav {
+    li {
+      display: inline-block;
+      width: auto;
+
+      .circle {
+        display: block;
+      }
+    }
+  }
+}
+
+/* ***** */
 
 .l-brickland-region{
 	&.row{
