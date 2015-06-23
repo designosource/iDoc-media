@@ -356,10 +356,21 @@ p{
 }
 .block-views-referenties-block a img{
 	height:310px;
-}
-.block-views-referenties-block a img:hover{
-	opacity:0.5;
-}
+		@include opacity(0.2);
+		@include desaturate(100%);
+		-webkit-transition: all 0.8s ease-in-out;
+-moz-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+	}
+	.block-views-referenties-block a img:hover{
+		@include opacity(1);
+		@include desaturate(0%);
+		-webkit-transition: all 0.8s ease-in-out;
+-moz-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;
+	}
 .l-storyworld-region{
 	text-align: center;
 }
