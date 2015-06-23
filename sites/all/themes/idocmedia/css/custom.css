@@ -7730,7 +7730,7 @@ p {
 
 /* line 357, ../scss/custom.scss */
 .block-views-referenties-block a img {
-  height: 310px;
+  /*height:310px;*/
   opacity: 0.2;
   filter: alpha(opacity=20);
   -webkit-filter: grayscale(100%);

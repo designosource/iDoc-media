@@ -355,7 +355,7 @@ p{
 	}
 }
 .block-views-referenties-block a img{
-	height:310px;
+	/*height:310px;*/
 		@include opacity(0.2);
 		@include desaturate(100%);
 		-webkit-transition: all 0.8s ease-in-out;
