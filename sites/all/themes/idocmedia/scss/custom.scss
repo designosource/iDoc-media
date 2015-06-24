@@ -354,7 +354,7 @@ p{
   		width: 100%;
 	}
 }
-.block-views-referenties-block a img{
+.block-views-referenties-block a img:hover{
 	/*height:310px;*/
 		@include opacity(0.2);
 		@include desaturate(100%);
@@ -363,7 +363,7 @@ p{
 -o-transition: all 0.8s ease-in-out;
 transition: all 0.8s ease-in-out;
 	}
-	.block-views-referenties-block a img:hover{
+	.block-views-referenties-block a img{
 		@include opacity(1);
 		@include desaturate(0%);
 		-webkit-transition: all 0.8s ease-in-out;

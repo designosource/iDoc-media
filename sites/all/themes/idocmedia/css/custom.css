@@ -7729,7 +7729,7 @@ p {
 }
 
 /* line 357, ../scss/custom.scss */
-.block-views-referenties-block a img {
+.block-views-referenties-block a img:hover {
   /*height:310px;*/
   opacity: 0.2;
   filter: alpha(opacity=20);
